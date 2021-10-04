@@ -1,0 +1,1 @@
+subfinder -silent -d uber.com | filter-resolved | sort -u | naabu -rate 40000 -silent -verify | httprobe
